@@ -1,0 +1,513 @@
+h3{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto';
+    
+    
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  button{
+    padding: 8px;
+    border-radius: 16px;
+    margin: 10px;
+    border: none;
+    width: 200px;
+    font-weight: 700;
+  
+  }
+  button:hover{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+  .navbar {
+      background-color:  rgb(0, 0, 0);
+      overflow: hidden;
+      scroll-behavior:smooth ;
+      color:rgb(255, 255, 255);
+      z-index: 1;
+     /* justify-content: space-between;*/
+      width: 100%; 
+    }
+  
+    .navbar a {
+      float: left;
+      display: block;
+     
+      color: #ffffff;
+      text-align: center;
+      /*padding: 14px 16px;*/
+      text-decoration: none;
+      font-weight: bolder;
+    }
+  
+    .navbar a:hover {
+      
+      background-color: rgb(255, 0, 0);
+    }
+  
+    .navbar a:first-child:hover{
+        background-color: whitesmoke;
+    }
+  
+    .navbar .icon {
+      display: none;
+    }
+  
+      h2{  
+        transition:opacity 1s ease-in ;
+        text-align: center;
+       }
+     
+       li{
+         list-style: none;
+         
+         
+       }
+     
+       .navbar li :hover{
+         background-color: rgb(255, 0, 0);
+         color: whitesmoke;
+       }
+     
+       a{
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+        
+       }
+  
+  
+       .logo{
+          font-family: monospace;
+          font-weight: 500%;
+          font-size: xx-large;
+          margin-right: 200px;
+          cursor: none;
+          
+       }
+  
+       .logo:hover{
+          background-color: rgb(0, 0, 0);
+       }
+  
+       footer a:hover{
+          color: rgb(255, 0, 0);
+          background-color: rgba(0, 0, 0, 0.286);
+       }
+     
+       footer{
+         color: rgb(255, 255, 255);
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         background-color: rgb(0, 0, 0);
+         padding-top: 15px;
+         padding-bottom: 10px;
+       }
+       .about1{
+        width: 50%;
+       }
+       #home{
+        background-image: url(pexels-catscoming-365459.jpg);
+        height: 95dvh;
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+        color: whitesmoke;
+        
+       
+     }
+
+     .overlay{
+        z-index: 2;
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5));
+        height: 95dvh;
+        align-content: center;
+        text-align: center;
+        padding: auto 20px;
+     }
+
+    
+     
+
+     .homebtn{
+        background-color: red;
+        color: whitesmoke;
+        border-radius: 16px;
+        border: none;
+
+     }
+
+     #about{
+        background-color: rgb(0, 0, 0);
+        padding: 40px 250px 40px 250px;
+        margin: 0;
+        display: flexbox;
+        flex-direction: row;
+        justify-content:space-evenly;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        height: 200px;
+        
+
+   }
+
+   #about img{
+    position: relative;
+    right:-800px;
+    top: -80px;
+    height: 350px;
+    width: auto;
+   }
+
+     .aboutbtn{
+        background-color: rgba(0,0,0,0.3);
+        color: whitesmoke;
+        border-radius: 16px;
+        border: 1px solid white;
+        display: flexbox;
+        flex-direction: row;
+        justify-content: center;
+       
+     }
+
+
+  
+
+     .hr1{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding-bottom: 25px;
+     }
+
+     .hr1 aside{
+        width: 50%;
+        margin: 20px;
+        align-content: center;
+        text-align: center;
+     }
+
+     .hr1 img{
+        height: 500px;
+        width: auto;
+     }
+
+     #deals{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding-bottom: 15px;
+     }
+
+     .deal img{
+        height: 150px;
+        width: 140px;
+     }
+
+     .deal{
+        justify-items: center;
+        text-align: center;
+        width: 290px;
+        border: solid 2px white;
+        border-radius: 8px;
+        margin-top: 15px;
+     }
+
+     .deal h4{
+        background-color: red;
+        padding: 5px;
+     }
+
+     .along{
+        margin: 0;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+
+     #contact{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        height: 600px;
+     }
+
+
+     #contact form{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-top: 10px;
+        border: solid white 2px;
+        border-radius: 16px;
+        padding-bottom: 20px;
+     }
+
+     #contact iframe{
+        margin: 10px;
+     }
+
+     input{
+        height: 20px;
+        border-radius: 12px;
+        margin: 10px;
+        width: 350px;
+        border: none;
+        padding-left: 12px;
+     }
+
+     .form img{
+        position: relative;
+        height: 400px;
+        width: auto;
+        left: 250px;
+        top: -200px;
+        z-index: 0;
+     }
+
+     #image{
+        background-image: url(top-view-two-italian-pizzas-with-meat-bell-peppers-olive-mushroom.jpg);
+        background-size: cover;
+        height: 400px;
+        background-position: center;
+        margin: 40px 0;
+        background-color: black;
+     }
+
+     .fa-brands{
+        font-size: 20px;
+     }
+
+     @media (max-width:1200px){
+        #contact{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            margin: auto 30px;
+        }
+
+        .form img{
+            top: -400px;
+            left: 600px;
+        }
+
+        .form{
+            height: 450px;
+        }
+
+        #about img{
+            left: 600px ;
+            top: 20px;
+            height: 200px;
+            width: auto;
+        }
+     }
+
+     @media (max-width: 1030px) {
+    
+        .navbar{
+          font-size: small;
+          padding-right: 20px;
+        }
+  
+        .overlay{
+          padding: auto 80px;
+        }
+        .logo{
+          margin-right: 125px;
+        }
+    
+        footer{
+            text-align: center;
+        }
+  
+        #about{
+          padding:40px 125px 40px 125px;
+          
+        }
+
+        #deals{
+            display: grid;
+            grid-template-areas: 'one two'  
+                                'three four';
+        }
+
+        .d1{
+            grid-area: one;
+        }
+        .d2{
+            grid-area: two;
+        }
+        .d3{
+            grid-area: three;
+        }
+        .d4{
+            grid-area: four;
+        }
+
+       .form img{
+        right: 200px;
+       }
+
+    }
+    
+    @media (max-width:850px){
+        #client main{
+            width: 60%;
+          }
+
+          #about{
+            height: fit-content;
+          }
+
+          #client aside{
+            font-size: smaller;
+            padding: 0;
+          }
+        
+          #client main{
+            padding: 0;    
+          }
+        
+          #client{
+            height: fit-content;
+            padding: 0;
+          }
+
+          #deals{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+        .form img{
+            position: absolute;
+            right: 100px;
+            
+        }
+
+        #about img{
+            top: 100dvh;
+            position: absolute;
+            z-index: 1;
+        
+        }
+
+        #about p{
+          z-index: 2;
+        }
+        
+    
+
+        .hr1{
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+            width: 100%;
+        }
+
+        .hr1 aside{
+            width: 100%;
+        }
+        .hr1 img{
+            width: 100%;
+            height: auto;
+        }
+        iframe{
+            width: 100%;
+        }
+
+        input{
+            width: auto;
+        }
+
+          
+
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .navbar a:not(:first-child) {
+              display: none;
+            }
+            .navbar a.icon {
+              float: right;
+              display: block;
+            }
+      
+            .navbar.responsive {
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              z-index: 10;
+            }
+            .navbar.responsive .icon {
+              position: absolute;
+              right: 0;
+              top: 0;
+              z-index: 10;
+            }
+            .navbar.responsive a {
+              display: block;
+              text-align: left;
+              z-index: 10;
+            }
+        
+            footer{
+              font-size: larger;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            }
+      
+            iframe{
+                width: 100%;
+            }
+      
+            footer span{
+              align-items: center;
+              
+            }
+      
+            .about1{
+              
+              width: 100%;
+
+            }
+      
+            #home .overlay{
+              align-items: center;
+              padding-right: 30px;
+              padding-left: 30px;
+            }
+            #client{
+                display: flexbox;
+                flex-direction: column;
+                padding:0;
+                align-items: center;
+                width: 100%;
+              }
+            }
